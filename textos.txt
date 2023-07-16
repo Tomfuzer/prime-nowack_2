@@ -1,0 +1,44 @@
+<header class="major">
+            <h2 align="central">
+              Revolucionando a segurança contra incêndios com o poder da
+              tecnologia
+            </h2>
+            <p align="central">
+              Conheça o Sistema Prino e eleve sua gestão de manutenção a um novo
+              patamar de rastreabilidade, confiabilidade e visibilidade.
+            </p>
+          </header>
+
+menu:
+
+<nav id="nav">
+          <ul style="text-align: center">
+            <li class="current"><a href="index.html">Prino</a></li>
+            <!-- <li>
+              <a href="#">Dropdown</a>
+              <ul>
+                <li><a href="#">Lorem dolor</a></li>
+                <li><a href="#">Magna phasellus</a></li>
+                <li><a href="#">Etiam sed tempus</a></li>
+                <li>
+                  <a href="#">Submenu</a>
+                  <ul>
+                    <li><a href="#">Lorem dolor</a></li>
+                    <li><a href="#">Phasellus magna</a></li>
+                    <li><a href="#">Magna phasellus</a></li>
+                    <li><a href="#">Etiam nisl</a></li>
+                    <li><a href="#">Veroeros feugiat</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Veroeros feugiat</a></li>
+              </ul>
+            </li> -->
+            <!-- <li><a href="quem-somos.html">Quem Somos</a></li> -->
+            <!-- <li><a href="prino.html">Prino</a></li> -->
+            <!-- <li><a href="recursos.html">Recursos</a></li> -->
+            <li><a href="perguntas-faq.html">Perguntas Frequentes</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li style="float: right"><a href="#">Prino Empresa</a></li>
+            <li style="float: right"><a href="#">Prino Esim</a></li>
+          </ul>
+        </nav>

@@ -1,0 +1,10 @@
+Ajustar a logomarca inicial
+modificar cores dos botões de acesso e o posicionamento. 
+Acertar o texto "Revolucionando a segurançã..."
+Estilizar o texto inicial "O Prino é uma plataforma..." 
+
+FEITO - Acertar a área "Elementos do sistema..."
+
+Iserir texto final dos "Elementos ao final dos banners"
+
+https://www.pngwing.com/pt

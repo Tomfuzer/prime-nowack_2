@@ -70,3 +70,41 @@
 //   image.style.transform = "scale(1)";
 //   image.style.transition = "transform 0.4s ease";
 // });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".slide");
+  const prevArrow = document.querySelector(".arrow.prev");
+  const nextArrow = document.querySelector(".arrow.next");
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide) => slide.classList.remove("active"));
+    slides[index].classList.add("active");
+  }
+
+  function goToNextSlide() {
+    currentSlide++;
+    if (currentSlide >= slides.length) {
+      currentSlide = 0;
+    }
+    showSlide(currentSlide);
+  }
+
+  function goToPrevSlide() {
+    currentSlide--;
+    if (currentSlide < 0) {
+      currentSlide = slides.length - 1;
+    }
+    showSlide(currentSlide);
+  }
+
+  function startSlideshow() {
+    setInterval(goToNextSlide, 15000); // Troca de slide a cada 15 segundos (15000 milissegundos)
+  }
+
+  prevArrow.addEventListener("click", goToPrevSlide);
+  nextArrow.addEventListener("click", goToNextSlide);
+
+  showSlide(currentSlide);
+  startSlideshow();
+});

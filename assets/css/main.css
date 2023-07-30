@@ -3717,3 +3717,42 @@ button:hover,
 .move-right {
   margin-left: 245px; /* Ajuste o valor conforme necessário */
 }
+
+/* Estilização básica do slideshow */
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  transition: transform 1.5s ease;
+}
+
+.slide.active,
+.slide.next-slide {
+  display: block;
+}
+
+/* Estilo das setas de navegação */
+.controls {
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.arrow {
+  cursor: pointer;
+  user-select: none;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.right-align {
+  float: right;
+}
+
+.center-align {
+  float: center;
+}

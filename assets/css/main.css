@@ -3710,7 +3710,7 @@ button:hover,
 
 .paragraphs-container {
   width: calc(
-    100% - 200px
+    100% - 19px
   ); /* Ajuste o valor conforme necessário (largura da imagem) */
 }
 
@@ -3756,3 +3756,6 @@ button:hover,
 .center-align {
   float: center;
 }
+
+/*Responsividade mobile*/
+

@@ -3710,7 +3710,7 @@ button:hover,
 
 .paragraphs-container {
   width: calc(
-    100% - 19px
+    100% - 85px
   ); /* Ajuste o valor conforme necessário (largura da imagem) */
 }
 

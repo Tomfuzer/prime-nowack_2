@@ -108,3 +108,22 @@ document.addEventListener("DOMContentLoaded", function () {
   showSlide(currentSlide);
   startSlideshow();
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   const contactForm = document.querySelector("form");
+  
+//   contactForm.addEventListener("submit", function(event) {
+//     event.preventDefault();
+
+//     const name = document.getElementById("name").value;
+//     const email = document.getElementById("email").value;
+//     const message = document.getElementById("message").value;
+    
+//     const subject = `Nova mensagem de ${name}`;
+//     const mailtoLink = `mailto:destino@email.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}%0A%0ADe:${name}%0AEmail:${email}`;
+    
+//     window.location.href = mailtoLink;
+//   });
+// });
+
+

@@ -3757,5 +3757,15 @@ button:hover,
   float: center;
 }
 
-/*Responsividade mobile*/
+/*FAQ*/
 
+.paragrafos-container {
+  display: flex;
+  flex-direction: column; /* Alinha os parágrafos verticalmente */
+}
+
+.paragrafos-container p {
+  flex: 1; /* Distribui espaço igualmente entre os parágrafos */
+  margin: 10px; /* Adiciona um espaçamento entre os parágrafos, ajuste conforme necessário */
+  text-align: justify; /* Justifica o texto dentro dos parágrafos */
+}

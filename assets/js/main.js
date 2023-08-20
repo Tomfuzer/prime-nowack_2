@@ -1,8 +1,3 @@
-/*
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function ($) {
   var $window = $(window),
@@ -59,17 +54,6 @@
     });
 })(jQuery);
 
-// const image = document.querySelector(".image");
-
-// image.addEventListener("mouseover", () => {
-//   image.style.transform = "scale(1.1)";
-//   image.style.transition = "transform 0.4s ease";
-// });
-
-// image.addEventListener("mouseout", () => {
-//   image.style.transform = "scale(1)";
-//   image.style.transition = "transform 0.4s ease";
-// });
 
 document.addEventListener("DOMContentLoaded", function () {
   const slides = document.querySelectorAll(".slide");
